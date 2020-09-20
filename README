@@ -1,4 +1,4 @@
 -Nhập số lượng từ, từ mới, nghĩa của từ trên CÙNG 1 DÒNG, KHÔNG CÓ DẤU CÁCH TRONG TỪ trong cmd, không được ENTER (sẽ chạy luôn chương trình)
--Cần thêm class DictionaryCommandline có hàm showAllWord() và dictionaryBasic()
--Sau cùng xem lại cách nhập từ commandline để người dùng nhập từng dòng
+-Cần thêm class DictionaryCommandline có hàm showAllWord() và dictionaryBasic() done
+-Sau cùng xem lại cách nhập từ commandline để người dùng nhập từng dòng.( Đã sửa hàm main thay vì nhập đối số )
 

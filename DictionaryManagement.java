@@ -2,6 +2,7 @@ public class DictionaryManagement {
     int wordNum;
     inputNewWord word;
     inputNewMeaning meaning;
+
     Dictionary dict = new Dictionary();
 
     public DictionaryManagement(int wordNum, inputNewWord word, inputNewMeaning meaning) {
@@ -11,10 +12,8 @@ public class DictionaryManagement {
     }
 
     public void insertFromCommandline() {
-        for (int i = 0; i<wordNum; ++i) {
-            dict.addWord(word.newWord[i],meaning.newMeaning[i]);
+        for (int i = 0; i < wordNum; ++i) {
+            dict.addWord(word.newWord[i], meaning.newMeaning[i]);
         }
-
-        dict.print();
     }
 }

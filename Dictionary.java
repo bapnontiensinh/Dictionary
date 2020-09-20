@@ -7,13 +7,13 @@ public class Dictionary {
     }
 
     public void addWord(String word, String meaning) {
-        wordList[count] = new Word(word,meaning);
+        wordList[count] = new Word(word, meaning);
         ++count;
     }
 
     public void print() {
-        for (int i= 0; i < count; ++i) {
-            System.out.println(wordList[i].getWord_target() + "      " + wordList[i].getWorld_explain());
+        for (int i = 0; i < count; ++i) {
+            System.out.println((i + 1) + "\t\t|" + wordList[i].getWord_target() + "\t\t|" + wordList[i].getWorld_explain());
         }
     }
 }
